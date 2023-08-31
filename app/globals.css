@@ -43,3 +43,22 @@ a {
   color: white;
   padding: 10px; 
 }
+
+.new {
+  background: white  ;
+}
+
+.new-item {
+  width: 280px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.msg {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin: 50px;
+
+}

@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
         <div className='navbar'>
           <Link href='/'><p>Home</p></Link>
           <Link href='/list'><p>List</p></Link>
+          <Link href='/new'><p>New</p></Link>
         </div>
         {children}
       </body>
