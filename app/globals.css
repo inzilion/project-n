@@ -24,14 +24,16 @@ a {
 }
 
 .list-item {
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(237, 215, 187);
   margin: 10px;
   border-radius: 5px;
 }
 
 .list-item p {
-  padding: 10px;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .list-item a {
@@ -60,5 +62,4 @@ a {
   text-align: center;
   font-weight: 600;
   margin: 50px;
-
 }
